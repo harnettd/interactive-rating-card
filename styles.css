@@ -2,6 +2,32 @@ html {
   font-size: 100%;
 }
 
+body {}
+
+/* main */
+
+/* Rating State */
+
+.circled {}
+
+.card-heading {}
+
+.card-body {}
+
+.rating-row {}
+
+.rating {}
+
+.rating:hover {}
+
+button {}
+
+/* Thank-You State */
+
+.confirmation {}
+
+/* footer */
+
 .attribution {
   font-size: 11px;
   text-align: center;
