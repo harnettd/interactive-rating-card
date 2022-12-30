@@ -18,9 +18,13 @@ body {}
 
 .rating-row {}
 
-.rating {}
+.rating {
+  color: red;
+}
 
-.rating:hover {}
+.rating:hover {
+  background-color: green;
+}
 
 button {}
 
