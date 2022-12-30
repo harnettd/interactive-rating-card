@@ -7,7 +7,6 @@ submitButton.addEventListener("click", function() {
 
 for (var i = 0; i < ratings.length; i++) {
   ratings[i].addEventListener("click", function() {
-    console.log(this.innerHTML);
-    return this.innerHTML;
+    document.getElementById("submitted-rating").innerHTML = this.innerHTML;
   });
 }
