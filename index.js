@@ -1,13 +1,13 @@
-var submitButton = document.querySelector("button");
-var ratings = document.querySelectorAll(".rating");
+const submitButton = document.querySelector("button");
+const ratings = document.querySelectorAll(".rating");
 
-submitButton.addEventListener("click", clickAlert);
-
-ratings.forEach((rating, ratingValue) => {
-  rating.addEventListener("click", clickAlert);
+submitButton.addEventListener("click", function() {
+  alert("Submitted!");
 });
 
-
-function clickAlert() {
-  alert("Clicked!");
+for (var i = 0; i < ratings.length; i++) {
+  ratings[i].addEventListener("click", function() {
+    console.log(this.innerHTML);
+    return this.innerHTML;
+  });
 }
