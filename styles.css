@@ -8,6 +8,8 @@ body {}
 
 /* Rating State */
 
+.rating-card img {}
+
 .circled {}
 
 .card-heading {}
@@ -23,6 +25,8 @@ body {}
 button {}
 
 /* Thank-You State */
+
+.thank-you-card img {}
 
 .confirmation {}
 
