@@ -26,12 +26,16 @@ body {
   font-weight: 700;
 }
 
-.card-body {}
+.card-body {
+  color: hsl(217, 12%, 63%);
+}
 
 .rating-row {}
 
 .rating {
-  padding: 12px;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
+  padding: 8px;
 }
 
 .rating:hover {
