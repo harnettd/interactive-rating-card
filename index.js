@@ -7,6 +7,18 @@ submitButton.addEventListener("click", function() {
 
 for (var i = 0; i < ratings.length; i++) {
   ratings[i].addEventListener("click", function() {
-    document.getElementById("submitted-rating").innerHTML = this.innerHTML;
+
+    const clickValue = this.innerHTML;
+    const currentSelection = document.querySelector(".selected");
+
+    if (currentSelection != null) {
+      if (currentSelection.innerHTML != this.innerHTML) {
+        currentSelection.classList.remove("selected");
+      } else {
+        return;
+      }
+    }
+    this.classList.add("selected");
+    document.getElementById("submitted-rating").innerHTML = clickValue;
   });
 }

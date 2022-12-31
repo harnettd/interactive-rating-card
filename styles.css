@@ -20,14 +20,19 @@ body {}
 
 .rating-row {}
 
-.rating {}
+.rating {
+  padding: 12px;
+}
 
 .rating:hover {
   background-color: green;
   color: #ffffff;
 }
 
-.selected {}
+.selected {
+  background-color: red;
+  color: #ffffff;
+}
 
 button {}
 
