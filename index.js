@@ -8,7 +8,7 @@ for (var i = 0; i < ratings.length; i++) {
     const currentSelection = document.querySelector(".selected");
 
     if (currentSelection != null) {
-      if (currentSelection.innerHTML != this.innerHTML) {
+      if (currentSelection.innerHTML != clickValue) {
         currentSelection.classList.remove("selected");
       } else {
         return;
