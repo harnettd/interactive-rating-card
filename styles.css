@@ -24,7 +24,10 @@ body {
 .rating-card img {
 }
 
-.circled {}
+.circled {
+  border-radius: 25%;
+  padding: 1rem;
+}
 
 .card-heading {
   color: hsl(0, 0%, 100%);
@@ -41,7 +44,6 @@ body {
 .rating {
   background-color: hsl(216, 12%, 54%);
   color: hsl(217, 12%, 63%);
-  padding: 8px;
 }
 
 .rating:hover {
