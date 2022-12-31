@@ -9,10 +9,11 @@ body {
 }
 
 /* main */
-
-.inactive {
-  background-color: #aaaaaa;
+.card {
+  background-color: hsl(213, 19%, 18%);
 }
+
+.inactive {}
 
 /* Rating State */
 
