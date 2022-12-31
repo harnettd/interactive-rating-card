@@ -3,18 +3,18 @@ html {
 }
 
 body {
-  background-color: hsl(216, 12%, 8%);
+  background-color: black;
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
 }
 
 /* main */
 .card {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(216, 12%, 8%);
   border-radius: 1rem;
   margin: 5rem auto;
   max-width: 25rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .inactive {}
@@ -25,7 +25,8 @@ body {
 }
 
 .circled {
-  border-radius: 25%;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
   padding: 1rem;
 }
 
@@ -37,12 +38,14 @@ body {
 
 .card-body {
   color: hsl(217, 12%, 63%);
+  line-height: 1.5;
 }
 
-.rating-row {}
+.rating-row {
+  padding: 2rem 0;
+}
 
 .rating {
-  background-color: hsl(216, 12%, 54%);
   color: hsl(217, 12%, 63%);
 }
 
@@ -58,7 +61,14 @@ body {
 
 button {
   background-color: hsl(25, 97%, 53%);
+  border-radius: 1.25rem;
   color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 /* Thank-You State */
