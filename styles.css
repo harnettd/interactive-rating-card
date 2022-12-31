@@ -73,9 +73,15 @@ button {
 
 /* Thank-You State */
 
+.thank-you-card {
+  text-align: center;
+}
+
 .thank-you-card img {}
 
-.confirmation {}
+.confirmation {
+  color: hsl(25, 97%, 53%);
+}
 
 /* footer */
 
