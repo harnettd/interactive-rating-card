@@ -50,13 +50,13 @@ body {
 }
 
 .rating:hover {
-  background-color: green;
-  color: #ffffff;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
 .selected {
-  background-color: red;
-  color: #ffffff;
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
 }
 
 button {
@@ -80,7 +80,12 @@ button {
 .thank-you-card img {}
 
 .confirmation {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.5rem;
   color: hsl(25, 97%, 53%);
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 50%;
 }
 
 /* footer */
