@@ -17,7 +17,9 @@ body {
   padding: 1.5rem;
 }
 
-.inactive {}
+.inactive {
+  display: none;
+}
 
 /* Rating State */
 
