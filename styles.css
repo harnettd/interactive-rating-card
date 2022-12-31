@@ -6,7 +6,9 @@ body {}
 
 /* main */
 
-.inactive {}
+.inactive {
+  background-color: #aaaaaa;
+}
 
 /* Rating State */
 
