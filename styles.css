@@ -48,7 +48,10 @@ body {
   color: #ffffff;
 }
 
-button {}
+button {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
 
 /* Thank-You State */
 
