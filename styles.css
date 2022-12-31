@@ -6,6 +6,8 @@ body {}
 
 /* main */
 
+.inactive {}
+
 /* Rating State */
 
 .rating-card img {}
@@ -18,13 +20,14 @@ body {}
 
 .rating-row {}
 
-.rating {
-  color: red;
-}
+.rating {}
 
 .rating:hover {
   background-color: green;
+  color: #ffffff;
 }
+
+.selected {}
 
 button {}
 
