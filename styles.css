@@ -21,7 +21,10 @@ body {
 
 .circled {}
 
-.card-heading {}
+.card-heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
 
 .card-body {}
 
