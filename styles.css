@@ -11,10 +11,10 @@ body {
 /* main */
 .card {
   background-color: hsl(216, 12%, 8%);
-  border-radius: 1rem;
-  margin: 5rem auto;
-  max-width: 25rem;
-  padding: 1.5rem;
+  border-radius: 1.2rem;
+  margin: 12.83rem auto;
+  max-width: 27.50rem;
+  padding: 2.14rem;
 }
 
 .inactive {
