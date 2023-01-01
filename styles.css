@@ -22,7 +22,6 @@ body {
 }
 
 /* Rating State */
-
 .rating-card img {
   padding: 1.1rem;
 }
@@ -37,6 +36,8 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
   font-weight: 700;
+  margin-bottom: 1.50rem;
+  margin-top: 2.32rem;
 }
 
 .card-body {
@@ -78,7 +79,6 @@ button {
 }
 
 /* Thank-You State */
-
 .thank-you-card {
   text-align: center;
 }
@@ -95,7 +95,6 @@ button {
 }
 
 /* footer */
-
 .attribution {
   font-size: 11px;
   text-align: center;
