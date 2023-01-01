@@ -23,8 +23,7 @@ body {
 
 /* Rating State */
 
-.rating-card img {
-}
+.rating-card img {}
 
 .circled {
   background-color: hsl(213, 19%, 18%);
@@ -44,6 +43,9 @@ body {
 }
 
 .rating-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding: 2rem 0;
 }
 
