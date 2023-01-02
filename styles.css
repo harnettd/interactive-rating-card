@@ -29,7 +29,6 @@ body {
 .circled {
   background-color: hsl(213, 19%, 18%);
   border-radius: 50%;
-  /* padding: 1rem; */
 }
 
 .card-heading {
@@ -50,11 +49,19 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
 }
 
 .rating {
   color: hsl(217, 12%, 63%);
+  padding: 1rem;
+}
+
+.first {
+  padding: 1rem 1.45rem;
+}
+
+.rest {
+  padding: 1rem 1.33rem;
 }
 
 .rating:hover {
