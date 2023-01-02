@@ -13,7 +13,7 @@ body {
   background-color: hsl(216, 12%, 8%);
   border-radius: 1.2rem;
   margin: 12.83rem auto;
-  max-width: 27.50rem;
+  max-width: 25rem;
   padding: 2.14rem;
 }
 
@@ -35,14 +35,15 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1.50rem;
-  margin-top: 2.32rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
 .card-body {
   color: hsl(217, 12%, 63%);
-  font-size: 1.15rem;
+  font-size: 1.13rem;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .rating-row {
@@ -54,15 +55,17 @@ body {
 
 .rating {
   color: hsl(217, 12%, 63%);
+  font-weight: 700;
   padding: 1rem;
+  position: relative;
 }
 
 .first {
-  padding: 1rem 1.45rem;
+  padding: 1.13rem 1.45rem 0.87rem;
 }
 
 .rest {
-  padding: 1rem 1.33rem;
+  padding: 1.13rem 1.33rem 0.87rem;
 }
 
 .rating:hover {
@@ -78,7 +81,7 @@ body {
 button {
   background-color: hsl(25, 97%, 53%);
   border: none;
-  border-radius: 1.25rem;
+  border-radius: 1.5rem;
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   font-weight: 700;
