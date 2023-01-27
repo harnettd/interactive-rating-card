@@ -86,7 +86,7 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-button {
+.submit-button {
   background-color: hsl(25, 97%, 53%);
   border: none;
   border-radius: 1.5rem;
@@ -96,6 +96,11 @@ button {
   letter-spacing: 0.075rem;
   padding: 0.8rem 0;
   width: 100%;
+}
+
+.submit-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
 
 /* Thank-You State */
