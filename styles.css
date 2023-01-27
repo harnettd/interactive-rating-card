@@ -3,54 +3,62 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: hsl(228, 11%, 9%);
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
 }
 
 /* main */
-.card {
-  background-color: hsl(216, 12%, 8%);
+/* .card {
+  background-color: hsl(215, 20%, 16%);
   border-radius: 1.2rem;
   margin: 12.83rem auto;
-  max-width: 25rem;
   padding: 2.14rem;
-}
+} */
 
 .inactive {
   display: none;
 }
 
 /* Rating State */
+
+.rating-card {
+  background-color: hsl(215, 20%, 16%);
+  border-radius: 1.2rem;
+  margin: 110px auto;
+  padding: 30px;
+  width: 310px;
+}
+
 .rating-card img {
-  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.9rem;
 }
 
 .circled {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(210, 21%, 19%);
   border-radius: 50%;
 }
 
 .card-heading {
   color: hsl(0, 0%, 100%);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
-  margin-top: 2rem;
+  margin: 0 auto 0.5rem;
 }
 
 .card-body {
   color: hsl(217, 12%, 63%);
-  font-size: 1.13rem;
-  line-height: 1.5;
-  margin-top: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 auto 1.3rem;
 }
 
 .rating-row {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 0 auto 1.825rem;
 }
 
 .rating {
@@ -85,8 +93,8 @@ button {
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.1rem;
-  padding: 1rem 0;
+  letter-spacing: 0.075rem;
+  padding: 0.8rem 0;
   width: 100%;
 }
 
