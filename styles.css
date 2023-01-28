@@ -9,12 +9,6 @@ body {
 }
 
 /* main */
-/* .card {
-  background-color: hsl(215, 20%, 16%);
-  border-radius: 1.2rem;
-  margin: 12.83rem auto;
-  padding: 2.14rem;
-} */
 
 .inactive {
   display: none;
@@ -24,15 +18,17 @@ body {
 
 .rating-card {
   background-color: hsl(215, 20%, 16%);
-  border-radius: 1.2rem;
-  margin: 110px auto;
-  padding: 30px;
-  width: 310px;
+  border-radius: 2rem;
+  margin: 195px auto;
+  padding: 32px;
+  width: 350px;
 }
 
-.rating-card img {
-  margin-bottom: 1.5rem;
-  padding: 0.9rem;
+.star-img {
+  height: 16px;
+  margin: 0 0 1.8rem;
+  padding: 16.5px 16px;
+  width: 17px;
 }
 
 .circled {
@@ -42,30 +38,28 @@ body {
 
 .card-heading {
   color: hsl(0, 0%, 100%);
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   font-weight: 700;
-  margin: 0 auto 0.5rem;
+  margin: 0 auto 0.7rem;
 }
 
 .card-body {
   color: hsl(217, 12%, 63%);
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.6;
-  margin: 0 auto 1.3rem;
+  margin: 0 auto 1.65rem;
 }
 
 .rating-row {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 1.825rem;
+  margin: 0 auto 2.35rem;
 }
 
 .rating {
   color: hsl(217, 12%, 63%);
   font-weight: 700;
-  padding: 1rem;
-  position: relative;
 }
 
 .first {
@@ -94,7 +88,7 @@ body {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.075rem;
-  padding: 0.8rem 0;
+  padding: 0.95rem 0;
   width: 100%;
 }
 
