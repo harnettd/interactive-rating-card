@@ -99,16 +99,23 @@ body {
 
 /* Thank-You State */
 .thank-you-card {
+  background-color: hsl(215, 20%, 16%);
+  border-radius: 2rem;
+  margin: 195px auto;
+  padding: 3rem 2.2667rem 1.6667rem;
   text-align: center;
+  width: 22.8rem;
 }
 
-.thank-you-card img {}
+.thank-you-img {
+  margin: 0 auto 1.8rem;
+}
 
 .confirmation {
   background-color: hsl(213, 19%, 18%);
   border-radius: 1.5rem;
   color: hsl(25, 97%, 53%);
-  margin: 1rem auto;
+  margin: 0 auto 2.0667rem;
   padding: 0.5rem;
   width: 50%;
 }
