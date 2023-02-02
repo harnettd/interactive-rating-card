@@ -133,3 +133,51 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+/* mobile */
+
+@media only screen and (max-width: 575px) {
+  
+  .rating-card {
+    margin: 156px auto;
+    padding: 24px 22px 32px;
+    width: 284px;
+  }
+
+  .star-img {
+    height: 14.21px;
+    margin: 0 0 1rem;
+    padding: 13.44px 13px;
+    width: 15px;
+  }
+
+  .card-heading {
+    font-size: 1.6rem;
+  }
+
+  .card-body {
+    font-size: 0.94rem;
+  }
+
+  .rating-row {
+    margin: 0 auto 1.5rem;
+  }
+
+  .rating {
+    font-size: 0.94rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.96rem;
+  }
+
+  .first {
+    padding-left: 1.2422rem;
+    padding-right: 1.2422rem;
+  }
+  
+  .rest {
+    padding-left: 1.1428rem;
+    padding-right: 1.1428rem;
+  }
+
+}
