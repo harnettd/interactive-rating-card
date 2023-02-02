@@ -14,6 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -28,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![rating card](images/screenshot-rating.jpg)
-![thank-you card](images/screenshot-thank-you.jpg)
+![rating card](images/screenshot-rating.png)
+![thank-you card](images/screenshot-thank-you.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/harnettd/interactive-rating-card](https://github.com/harnettd/interactive-rating-card)
+- Live Site URL: [https://harnettd.github.io/interactive-rating-card/](https://harnettd.github.io/interactive-rating-card/)
 
 ## My process
 
@@ -43,46 +44,29 @@ Users should be able to:
 - HTML5
 - CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In completing this project, I learned how to
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- work with flex containers and flex items in Flexbox
+- hide an element using CSS with `display: none;`
+- add event listeners to elements using Javascript.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- In this project, the layout that I set up using Flexbox was straightforward. I'd like to learn to use Flexbox to set up more complicated layouts.
+- Near completion of this project, I stumbled across the `box-sizing: border-box;` property-value pair in CSS. In the future, I think that I'll use this combination when specifying paddings and widths of elements. 
 
 ### Useful resources
 
-- [A CSS Flexbox Tutorial for Beginners](https://torquemag.io/2020/02/flexbox-tutorial/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3Schools CSS Flexbox](https://www.w3schools.com/csS/css3_flexbox.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
 - Github - [Derek Harnett](https://github.com/harnettd)
 - Frontend Mentor - [@harnettd](https://www.frontendmentor.io/profile/harnettd)
+
+## Acknowledgements
+
+Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for posting this challenge.
