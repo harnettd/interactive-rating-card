@@ -180,4 +180,22 @@ h1 {
     padding-right: 1.1428rem;
   }
 
+  .thank-you-card {
+    margin: 10.4rem auto;
+    padding: 2.2667rem 1.6rem 0.9rem;
+    width: 18.9333rem;
+  }
+
+  .thank-you-img {
+    height: 6.5333rem;
+    margin: 0 auto 1.3rem;
+    width: 9.8rem;
+  }
+
+  .confirmation {
+    font-size: 0.94rem;
+    margin: 0 auto 1.65rem;
+    width: 54%;
+  }
+
 }
